@@ -1,4 +1,4 @@
-# curtain-opener
+# Curtain-opener
 # LPC1768 Stepper Motor Controller
 
 This project demonstrates how to control a stepper motor using the **LPC1768 ARM Cortex-M3 microcontroller**. It integrates keypad input, LCD display, GPIO control, and hardware timers to perform directional control (clockwise/anti-clockwise) and timed operation of a stepper motor.
