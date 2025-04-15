@@ -44,5 +44,20 @@ This project demonstrates how to control a stepper motor using the **LPC1768 ARM
 
 ---
 
-## 📁 File Structure
+## 🔧 How to Build
+
+1. Open the project in **Keil uVision** or your preferred ARM IDE.
+2. Make sure CMSIS and startup files for LPC1768 are added.
+3. Add `main.c` and any driver files (e.g., LCD).
+4. Configure clock, GPIO, and timer settings (if not already handled).
+5. Compile and flash to LPC1768 board.
+
+---
+
+## 🚀 Future Improvements
+
+- Debouncing keypad input
+- Adding more LCD prompts and error handling
+- Non-blocking motor control using interrupts
+- EEPROM save/load of last time value
 
